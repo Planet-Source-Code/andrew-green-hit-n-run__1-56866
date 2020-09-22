@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Hit'n Run
+
+
+[Package|Hit'n Run|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\AG\Hit'n Run!\Package
+
+[Package|Hit'n Run|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Hit'n Run|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Hit'n Run|Files Found]
+
+[Package|Hit'n Run|Files Released]
+
+[Package|Hit'n Run|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Hit'n Run|Out-of-Date Dependency Information]
+
+[Package|Hit'n Run|Files Added]
+c:\ag\hit'n run!\pics\car.gif=
+c:\ag\hit'n run!\pics\dead.bmp=
+c:\ag\hit'n run!\pics\alive.bmp=
+
+[Package|Hit'n Run|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\windows\system\comcat.dll=
+
+[Package|Hit'n Run|Files In Project]
+C:\AG\Hit'n Run!\Hit'n run.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+C:\WINDOWS\SYSTEM\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\AG\Hit'n Run!\Pics\car.gif=Yes
+C:\AG\Hit'n Run!\Pics\Dead.bmp=Yes
+C:\AG\Hit'n Run!\Pics\Alive.bmp=Yes
+
+[Package|Hit'n Run|Configure Registry Files]
+Applicable=No
+
+[Package|Hit'n Run|Configure Remote Servers]
+Applicable=No
+
+[Package|Hit'n Run|Install Locations]
+C:\AG\Hit'n Run!\Hit'n run.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\AG\Hit'n Run!\Pics\car.gif=$(AppPath)\Pics
+C:\AG\Hit'n Run!\Pics\Dead.bmp=$(AppPath)\Pics
+C:\AG\Hit'n Run!\Pics\Alive.bmp=$(AppPath)\Pics
+
+[Package|Hit'n Run|Configure Shared Files]
+Applicable=Yes
+C:\AG\Hit'n Run!\Hit'n run.exe=No
+C:\AG\Hit'n Run!\Pics\car.gif=No
+C:\AG\Hit'n Run!\Pics\Dead.bmp=No
+C:\AG\Hit'n Run!\Pics\Alive.bmp=No
+
+[Package|Hit'n Run|Distribution]
+Type=single
+Size=
+Title=Hit'n Run!
+
+[Package|Hit'n Run|Package]
+PackageFolder=C:\AG\Hit'n Run!\Package
+ProjectFolder=C:\AG\Hit'n Run!
+ServerSideCab=
+File1=C:\AG\Hit'n Run!\Package\setup.exe
+File2=C:\AG\Hit'n Run!\Package\Setup.Lst
+File3=C:\AG\Hit'n Run!\Package\Hit'n run.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
